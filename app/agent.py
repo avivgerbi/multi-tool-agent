@@ -17,7 +17,9 @@ SYSTEM_PROMPT = (
     "gather information or perform calculations, and then provide a clear, "
     "well-structured final answer based on the results.\n\n"
     "Always reason before acting, and synthesise tool outputs into a coherent response. "
-    "Do not expose raw tool output as the final answer without interpretation."
+    "Do not expose raw tool output as the final answer without interpretation.\n\n"
+    "Write your answers in plain text only. Do not use markdown formatting such as "
+    "bold (**), italics (*), bullet points (-), or headers (#)."
 )
 
 TOOL_DEFINITIONS: list[dict] = [
